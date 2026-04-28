@@ -2,9 +2,6 @@ import Header from '../components/Header'
 import BrandCard from '../components/BrandCard'
 
 import adidasLogo from '../assets/adidas.png'
-import nikeLogo from '../assets/nike.png'
-import gucciLogo from '../assets/gucci.png'
-import armaniLogo from '../assets/armani.png'
 
 function Home() {
   return (
@@ -19,12 +16,13 @@ function Home() {
         padding: "20px"
       }}>
         <BrandCard name="adidas" image={adidasLogo} />
-        <BrandCard name="nike" image={nikeLogo} />
-        <BrandCard name="gucci" image={gucciLogo} />
-        <BrandCard name="armani" image={armaniLogo} />
+        <BrandCard name="nike" />
+        <BrandCard name="gucci" />
+        <BrandCard name="armani" />
       </div>
     </>
   )
 }
 
 export default Home
+
