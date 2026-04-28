@@ -1,4 +1,13 @@
+import { useNavigate } from 'react-router-dom'
+
 function Navbar({ isOpen, onClose }) {
+  const navigate = useNavigate()
+
+  const goTo = (path) => {
+    navigate(path)
+    onClose() // fecha o menu depois de clicar
+  }
+
   return (
     <div style={{
       position: "fixed",
@@ -18,10 +27,10 @@ function Navbar({ isOpen, onClose }) {
       <h2>Menu</h2>
 
       <ul style={{ listStyle: "none", padding: 0 }}>
-        <li>Home</li>
-        <li>Login</li>
-        <li>Adidas</li>
-        <li>Nike</li>
+        <li onClick={() => goTo("/")}>Home</li>
+        <li onClick={() => goTo("/login")}>Login</li>
+        <li onClick={() => goTo("/brand/adidas")}>Adidas</li>
+        <li onClick={() => goTo("/brand/nike")}>Nike</li>
       </ul>
 
     </div>
