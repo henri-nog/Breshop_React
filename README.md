@@ -1,16 +1,61 @@
-# React + Vite
+# 🛍️ Breshop 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido com React utilizando Vite, com foco em uma aplicação com o propósito de facilitar a divulgação e comercialização dos brechós. 
 
-Currently, two official plugins are available:
+Com o crescimento da moda sustentável, o Breshop visa facilitar a divulgação entre consumidores e brechós. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Para isso, a plataforma hospedará brechós de diferentes localidades, disponibilizando formas de contato, localização de seu espaço físico (se houver) e/ou digital (Instagram, Facebook, etc.).
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* React Router DOM
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Pré-requisitos
+
+- Node.js instalado (versão 18 ou superior)
+
+---
+
+## Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/henri-nog/Breshop_React.git
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd Breshop_React
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+---
+
+## Como executar
+
+Inicie o projeto com:
+
+```bash
+npm run dev
+```
+
+Depois acesse no navegador:
+
+```
+http://localhost:5173/
+```
+
+
