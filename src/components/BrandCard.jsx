@@ -17,11 +17,15 @@ function BrandCard({ name, image }) {
         backgroundColor: "#f9f9f9"
       }}
     >
-      <img 
-        src={image} 
-        alt={name} 
-        style={{ width: "80px", height: "auto" }}
-      />
+      {image ? (
+        <img 
+          src={image} 
+          alt={name} 
+          style={{ width: "80px" }}
+        />
+      ) : (
+        <p>{name}</p>
+      )}
     </div>
   )
 }
